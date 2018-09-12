@@ -1,5 +1,9 @@
 #include <jni.h>
 #include <string>
+#include <cstdlib>
+
+/* Just a note, extern means the variable is defined somewhere else so the compiler does not tweak*/
+
 
 extern "C" JNIEXPORT jstring
 
