@@ -12,6 +12,6 @@ JNICALL
 Java_com_example_a811955_nkcbusinesscounciltestapp_MainActivity_stringFromJNI(
         JNIEnv *env,
         jobject /* this */) {
-    std::string hello = "Hello from C++";
+    std::string hello = "Welcome to the North Kansas City Business Council Application ";
     return env->NewStringUTF(hello.c_str());
 }
