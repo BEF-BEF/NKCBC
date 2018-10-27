@@ -62,7 +62,7 @@ constructor(props){
 
                  <Text>This is the homepage</Text>
                  <Button
-                 onPress={() => this.props.navigation.navigate('logInScreen')}
+                 onPress={() => this.props.navigation.navigate('LogIn')}
        title="Go to login"
                  />
           </View>
